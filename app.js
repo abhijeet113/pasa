@@ -54,7 +54,7 @@ btn.addEventListener('click', ()=>{
 function takeCommand(message){
     if(message.includes('hey') || message.includes('hello')||message
     .includes('hi')){
-        speak("Hello Sir, How May I Help You?");
+        speak("i am asistant of abhijeet, How May I Help You?");
     }
     else if (message.includes('wish to')) {
         const nameIndex = message.indexOf('wish to') + 8; // Assuming "wish to" is followed by the name
